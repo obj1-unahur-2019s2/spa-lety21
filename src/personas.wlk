@@ -1,5 +1,10 @@
 
 object olivia {
+	var gradoContracion=6
+	
+	method gradoDeConcentracion() { return gradoContracion}
+	method recibirMasajes() { gradoContracion += 3}
+	method discute() { gradoContracion-=1}
 }
 
 
@@ -22,7 +27,8 @@ object bruno {
 	method estaPerfecto() { return self.esFeliz() and not self.tieneSed() and self.peso().between(50000, 70000) }
 	method mediodiaEnCasa() { 
 		self.comerFideos()
-		// y que mas?
+		self.tomarAgua()
+		self.verElNoticiero()
 	}
 }
 
