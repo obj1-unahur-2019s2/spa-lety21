@@ -1,10 +1,14 @@
 
+import spa.*
+
 object olivia {
-	var gradoContracion=6
+	var gradoDeConcentracion=6
 	
-	method gradoDeConcentracion() { return gradoContracion}
-	method recibirMasajes() { gradoContracion += 3}
-	method discute() { gradoContracion-=1}
+	method gradoDeConcentracion() { return gradoDeConcentracion}
+	method recibirMasajes() { gradoDeConcentracion += 3}
+	method darseUnBanioDeVapor() { }
+	method discute() { gradoDeConcentracion-=1}
+
 }
 
 
